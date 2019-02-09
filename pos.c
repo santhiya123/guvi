@@ -14,12 +14,11 @@ int main()
     }
     else
     { 
-        if(n==0)
-        printf("Zero");
-        else
-        {
-        printf("error");
-        }
         
-        return 0;
-        }
+        printf("Zero");
+        
+    }
+    return 0;
+    
+}
+
