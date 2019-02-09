@@ -1,18 +1,23 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int n,a;
-    scanf("%d",&n);
-    if(n>=0)
-    {
-     a=n/2;   
-    printf("Even");
-    }
-    else
+    int a;
+    scanf("%d",&a);
+    if(a<0)
     {
         printf("invalid");
     }
-    return 0;
+    else if(a%2==0)
+    {
+        printf("even");
+    
+    }
+    else if(a%2!=0)
+    {
+        printf("odd");
+    }
+     return 0;
 }
+
 
 
