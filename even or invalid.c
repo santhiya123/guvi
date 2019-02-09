@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 int main()
 {
@@ -9,15 +10,16 @@ int main()
     }
     else if(a%2==0)
     {
-        printf("even");
+        printf("Even");
     
     }
     else if(a%2!=0)
     {
-        printf("odd");
+        printf("Odd");
     }
      return 0;
 }
+
 
 
 
